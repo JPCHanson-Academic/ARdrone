@@ -1,0 +1,8 @@
+<map id="Drone.Hardware.SensorManager.SensorManager" name="Drone.Hardware.SensorManager.SensorManager">
+<area shape="rect" id="node2" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#ace3cd1e72bda115d0109f6f89a1e9c36" title="workspace.ARDroneNavData.src.\lNavData.main" alt="" coords="288,71,520,112"/>
+<area shape="rect" id="node3" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a48f7de7994b48a30f09910e9971d300d" title="workspace.ARDroneNavData.src.\lNavData.createFromData" alt="" coords="568,71,800,112"/>
+<area shape="rect" id="node4" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a5bf3b738d8cfc76f9e52de7d13c613cf" title="workspace.ARDroneNavData.src.\lNavData.parseDemoNavData" alt="" coords="848,5,1080,47"/>
+<area shape="rect" id="node6" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a7644e4b560209b4b0c2cb96084970acd" title="workspace.ARDroneNavData.src.\lNavData.parseVisionTags" alt="" coords="848,71,1080,112"/>
+<area shape="rect" id="node7" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a636d7e555be5221385f60d6d9635363e" title="workspace.ARDroneNavData.src.\lNavData.setVisionTags" alt="" coords="848,136,1080,177"/>
+<area shape="rect" id="node5" href="$enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_ctrl_state.html#a12e972814c520c7a3da99809b3c7973b" title="workspace.ARDroneNavData.src.controller.\lCtrlState.fromInt" alt="" coords="1128,5,1424,47"/>
+</map>

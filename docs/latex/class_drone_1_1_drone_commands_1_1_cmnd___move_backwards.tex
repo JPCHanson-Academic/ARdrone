@@ -1,0 +1,162 @@
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards}{}\section{Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards Class Reference}
+\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards}\index{Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards@{Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards}}
+
+
+Inheritance diagram for Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acd5f813284f037025fde41b3929de115}{Cmnd\+\_\+\+Move\+Backwards} (Inet\+Address ip\+Address, Datagram\+Socket socket)
+\item 
+void \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acb9c081aeee86e681d099057251bf1ba}{execute} (int sequence)  throws Exception  	
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever}{A\+T\+Reciever} \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ab2fe68c416f15558165a29a12981fc43}{motors}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a62a5be094d2de1a91587df098faa685a}{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1} = \char`\"{}A\+T$\ast$P\+C\+M\+D=\char`\"{}
+\item 
+static final String \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a253062f14f3f50f1eae102a97a743876}{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2} = \char`\"{},1,\char`\"{}
+\item 
+static final String \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_aadb85a8030191ae34469dd541ab59c4e}{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3} = \char`\"{},0,0,0\char`\"{}
+\item 
+static final float \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ad521b34d56169e808c17bcdbe37e8da9}{S\+P\+E\+E\+D} = -\/1.\+0f
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Sends the \char`\"{}move-\/backward\char`\"{} command. to create a new command copy\textquotesingle{}n\textquotesingle{}paste this code into a new command class, and change names and the A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G\textquotesingle{}s \begin{DoxyAuthor}{Author}
+orpheus 
+\end{DoxyAuthor}
+
+
+Definition at line 15 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acd5f813284f037025fde41b3929de115}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!Cmnd\+\_\+\+Move\+Backwards@{Cmnd\+\_\+\+Move\+Backwards}}
+\index{Cmnd\+\_\+\+Move\+Backwards@{Cmnd\+\_\+\+Move\+Backwards}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{Cmnd\+\_\+\+Move\+Backwards}]{\setlength{\rightskip}{0pt plus 5cm}Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+Cmnd\+\_\+\+Move\+Backwards (
+\begin{DoxyParamCaption}
+\item[{Inet\+Address}]{ip\+Address, }
+\item[{Datagram\+Socket}]{socket}
+\end{DoxyParamCaption}
+)}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acd5f813284f037025fde41b3929de115}
+Default C\+T\+O\+R, initialise stuff 
+
+Definition at line 33 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+
+\begin{DoxyCode}
+34     \{
+35         \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ab2fe68c416f15558165a29a12981fc43}{motors} = \textcolor{keyword}{new} ATReciever(ipAddress, socket);   
+36     \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acb9c081aeee86e681d099057251bf1ba}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!execute@{execute}}
+\index{execute@{execute}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}void Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+execute (
+\begin{DoxyParamCaption}
+\item[{int}]{sequence}
+\end{DoxyParamCaption}
+) throws Exception}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acb9c081aeee86e681d099057251bf1ba}
+send the command created by concatonating A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1, the sequence parameter and A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2 to the A\+T\+Reciever 
+
+Implements \hyperlink{interface_drone_1_1_drone_commands_1_1_a_t_command_a5205ae7a2269e1a82923c166322e1374}{Drone.\+Drone\+Commands.\+A\+T\+Command}.
+
+
+
+Definition at line 43 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+
+
+References Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3, Drone.\+Helpers.\+Int\+To\+Float.\+input(), and Drone.\+Hardware.\+A\+T\+Reciever.\+send\+\_\+at\+\_\+cmd().
+
+
+\begin{DoxyCode}
+44     \{
+45         \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ab2fe68c416f15558165a29a12981fc43}{motors}.\hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_a93352d75209626cf62bde294b35f9120}{send\_at\_cmd}(\hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a62a5be094d2de1a91587df098faa685a}{AT\_COMMAND\_STRING1}+sequence+
+      \hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a253062f14f3f50f1eae102a97a743876}{AT\_COMMAND\_STRING2}
+46                             +IntToFloat.input(\hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ad521b34d56169e808c17bcdbe37e8da9}{SPEED})+\hyperlink{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_aadb85a8030191ae34469dd541ab59c4e}{AT\_COMMAND\_STRING3});
+47     \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_acb9c081aeee86e681d099057251bf1ba_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a62a5be094d2de1a91587df098faa685a}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1@{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1}}
+\index{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1@{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1}]{\setlength{\rightskip}{0pt plus 5cm}final String Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G1 = \char`\"{}A\+T$\ast$P\+C\+M\+D=\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a62a5be094d2de1a91587df098faa685a}
+command string part 1 
+
+Definition at line 22 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a253062f14f3f50f1eae102a97a743876}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2@{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2}}
+\index{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2@{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2}]{\setlength{\rightskip}{0pt plus 5cm}final String Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G2 = \char`\"{},1,\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_a253062f14f3f50f1eae102a97a743876}
+command string part 2 
+
+Definition at line 24 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_aadb85a8030191ae34469dd541ab59c4e}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3@{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3}}
+\index{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3@{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3}]{\setlength{\rightskip}{0pt plus 5cm}final String Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+A\+T\+\_\+\+C\+O\+M\+M\+A\+N\+D\+\_\+\+S\+T\+R\+I\+N\+G3 = \char`\"{},0,0,0\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_aadb85a8030191ae34469dd541ab59c4e}
+command string part 2 
+
+Definition at line 26 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+
+
+Referenced by Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+execute().
+
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ab2fe68c416f15558165a29a12981fc43}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!motors@{motors}}
+\index{motors@{motors}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{motors}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+T\+Reciever} Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+motors\hspace{0.3cm}{\ttfamily [private]}}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ab2fe68c416f15558165a29a12981fc43}
+reference to the reciever 
+
+Definition at line 19 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+\hypertarget{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ad521b34d56169e808c17bcdbe37e8da9}{}\index{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}!S\+P\+E\+E\+D@{S\+P\+E\+E\+D}}
+\index{S\+P\+E\+E\+D@{S\+P\+E\+E\+D}!Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards@{Drone\+::\+Drone\+Commands\+::\+Cmnd\+\_\+\+Move\+Backwards}}
+\subsubsection[{S\+P\+E\+E\+D}]{\setlength{\rightskip}{0pt plus 5cm}final float Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backwards.\+S\+P\+E\+E\+D = -\/1.\+0f\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_drone_commands_1_1_cmnd___move_backwards_ad521b34d56169e808c17bcdbe37e8da9}
+speed constant 
+
+Definition at line 28 of file Cmnd\+\_\+\+Move\+Backwards.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_cmnd___move_backwards_8java}{Cmnd\+\_\+\+Move\+Backwards.\+java}\end{DoxyCompactItemize}

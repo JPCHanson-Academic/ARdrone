@@ -1,0 +1,108 @@
+\hypertarget{class_drone_1_1_helpers_1_1_int_to_float}{}\section{Drone.\+Helpers.\+Int\+To\+Float Class Reference}
+\label{class_drone_1_1_helpers_1_1_int_to_float}\index{Drone.\+Helpers.\+Int\+To\+Float@{Drone.\+Helpers.\+Int\+To\+Float}}
+
+
+Collaboration diagram for Drone.\+Helpers.\+Int\+To\+Float\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_drone_1_1_helpers_1_1_int_to_float__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_drone_1_1_helpers_1_1_int_to_float_a589f3f1e77517aecf73ad09d0a36d61e}{input} (float f)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Byte\+Buffer \hyperlink{class_drone_1_1_helpers_1_1_int_to_float_a199b65eafb9a7b41a8d810160265d9a4}{bb} = Byte\+Buffer.\+allocate(4)
+\item 
+static Float\+Buffer \hyperlink{class_drone_1_1_helpers_1_1_int_to_float_a3154ee6f1ff63a7fffd9dca883095cb3}{fb} = bb.\+as\+Float\+Buffer()
+\item 
+static Int\+Buffer \hyperlink{class_drone_1_1_helpers_1_1_int_to_float_af3a881fde7f3c3637248f94e69ec85a8}{ib} = bb.\+as\+Int\+Buffer()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+orpheus 
+\end{DoxyAuthor}
+
+
+Definition at line 11 of file Int\+To\+Float.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_drone_1_1_helpers_1_1_int_to_float_a589f3f1e77517aecf73ad09d0a36d61e}{}\index{Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}!input@{input}}
+\index{input@{input}!Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}}
+\subsubsection[{input}]{\setlength{\rightskip}{0pt plus 5cm}static int Drone.\+Helpers.\+Int\+To\+Float.\+input (
+\begin{DoxyParamCaption}
+\item[{float}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_drone_1_1_helpers_1_1_int_to_float_a589f3f1e77517aecf73ad09d0a36d61e}
+
+\begin{DoxyParams}{Parameters}
+{\em f} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 25 of file Int\+To\+Float.\+java.
+
+
+
+Referenced by Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Turn\+Left.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Turn\+Right.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Forward.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Up.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Right.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Down.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backward.\+execute(), and Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Left.\+execute().
+
+
+\begin{DoxyCode}
+26     \{
+27         \hyperlink{class_drone_1_1_helpers_1_1_int_to_float_a3154ee6f1ff63a7fffd9dca883095cb3}{fb}.put(0, f);
+28         \textcolor{keywordflow}{return} \hyperlink{class_drone_1_1_helpers_1_1_int_to_float_af3a881fde7f3c3637248f94e69ec85a8}{ib}.get(0);
+29     \}
+\end{DoxyCode}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drone_1_1_helpers_1_1_int_to_float_a589f3f1e77517aecf73ad09d0a36d61e_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_drone_1_1_helpers_1_1_int_to_float_a199b65eafb9a7b41a8d810160265d9a4}{}\index{Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}!bb@{bb}}
+\index{bb@{bb}!Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}}
+\subsubsection[{bb}]{\setlength{\rightskip}{0pt plus 5cm}Byte\+Buffer Drone.\+Helpers.\+Int\+To\+Float.\+bb = Byte\+Buffer.\+allocate(4)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_helpers_1_1_int_to_float_a199b65eafb9a7b41a8d810160265d9a4}
+
+
+Definition at line 14 of file Int\+To\+Float.\+java.
+
+\hypertarget{class_drone_1_1_helpers_1_1_int_to_float_a3154ee6f1ff63a7fffd9dca883095cb3}{}\index{Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}!fb@{fb}}
+\index{fb@{fb}!Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}}
+\subsubsection[{fb}]{\setlength{\rightskip}{0pt plus 5cm}Float\+Buffer Drone.\+Helpers.\+Int\+To\+Float.\+fb = bb.\+as\+Float\+Buffer()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_helpers_1_1_int_to_float_a3154ee6f1ff63a7fffd9dca883095cb3}
+
+
+Definition at line 16 of file Int\+To\+Float.\+java.
+
+\hypertarget{class_drone_1_1_helpers_1_1_int_to_float_af3a881fde7f3c3637248f94e69ec85a8}{}\index{Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}!ib@{ib}}
+\index{ib@{ib}!Drone\+::\+Helpers\+::\+Int\+To\+Float@{Drone\+::\+Helpers\+::\+Int\+To\+Float}}
+\subsubsection[{ib}]{\setlength{\rightskip}{0pt plus 5cm}Int\+Buffer Drone.\+Helpers.\+Int\+To\+Float.\+ib = bb.\+as\+Int\+Buffer()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{class_drone_1_1_helpers_1_1_int_to_float_af3a881fde7f3c3637248f94e69ec85a8}
+
+
+Definition at line 18 of file Int\+To\+Float.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_int_to_float_8java}{Int\+To\+Float.\+java}\end{DoxyCompactItemize}

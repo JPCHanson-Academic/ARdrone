@@ -1,0 +1,81 @@
+\hypertarget{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state}{}\section{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State Interface Reference}
+\label{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state}\index{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State@{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State}}
+
+
+Inheritance diagram for Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ae6fb0ba699d26333d2800f02bd6d1a33}{adjust\+Action} (\hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot}{Auto\+Pilot} autopilot)  throws Exception
+\item 
+String \hyperlink{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ac30fcebfe95c80d2d66d44dc7d46ebc3}{to\+String} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+template for autopilot states \begin{DoxyAuthor}{Author}
+orpheus 
+\end{DoxyAuthor}
+
+
+Definition at line 7 of file Auto\+Pilot\+State.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ae6fb0ba699d26333d2800f02bd6d1a33}{}\index{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State}!adjust\+Action@{adjust\+Action}}
+\index{adjust\+Action@{adjust\+Action}!Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State}}
+\subsubsection[{adjust\+Action}]{\setlength{\rightskip}{0pt plus 5cm}void Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State.\+adjust\+Action (
+\begin{DoxyParamCaption}
+\item[{{\bf Auto\+Pilot}}]{autopilot}
+\end{DoxyParamCaption}
+) throws Exception}\label{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ae6fb0ba699d26333d2800f02bd6d1a33}
+perform appropriate X\+Y\+Z adjustement 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state_a93bd4237b77019c4ac9551ccd5d25418}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Thinking\+State}, \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_x_state_ac148c7c38a17b8ae7aab2ab1483e1a3c}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+X\+State}, \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_a000b841e26228d43168ba9da58ed5286}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State}, and \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_z_state_a44c3058abe028db23824d490d0b102c9}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Z\+State}.
+
+
+
+Referenced by Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot.\+move\+To\+Target().
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ae6fb0ba699d26333d2800f02bd6d1a33_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ac30fcebfe95c80d2d66d44dc7d46ebc3}{}\index{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Auto\+Pilot\+State}}
+\subsubsection[{to\+String}]{\setlength{\rightskip}{0pt plus 5cm}String Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State.\+to\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ac30fcebfe95c80d2d66d44dc7d46ebc3}
+get a string label belonging to the state \begin{DoxyReturn}{Returns}
+string containing the state label 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state_a84962965d277b662f5420ce923cde8be}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Thinking\+State}, \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_x_state_a942ad62d494ec63e475e7e5e3e8ca7c4}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+X\+State}, \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_af69fe4aecfbc4a3a9307dec873289775}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State}, and \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_z_state_ae664f7945be43d86902b90dde3073f65}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Z\+State}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_auto_pilot_state_8java}{Auto\+Pilot\+State.\+java}\end{DoxyCompactItemize}

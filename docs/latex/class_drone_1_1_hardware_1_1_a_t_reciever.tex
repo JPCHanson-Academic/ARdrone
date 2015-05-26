@@ -1,0 +1,128 @@
+\hypertarget{class_drone_1_1_hardware_1_1_a_t_reciever}{}\section{Drone.\+Hardware.\+A\+T\+Reciever Class Reference}
+\label{class_drone_1_1_hardware_1_1_a_t_reciever}\index{Drone.\+Hardware.\+A\+T\+Reciever@{Drone.\+Hardware.\+A\+T\+Reciever}}
+
+
+Collaboration diagram for Drone.\+Hardware.\+A\+T\+Reciever\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_drone_1_1_hardware_1_1_a_t_reciever__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_a634fc982b58c475a7bd7b4780416a9bb}{A\+T\+Reciever} (Inet\+Address inetaddr, Datagram\+Socket at\+Sock)
+\item 
+void \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_a93352d75209626cf62bde294b35f9120}{send\+\_\+at\+\_\+cmd} (String at\+\_\+cmd)  throws Exception  	
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Inet\+Address \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_a5253dfd32652a64fba8f0f2d00530866}{inet\+\_\+addr}
+\item 
+Datagram\+Socket \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_ac5f975b3bdd5cf7346ff6649daf831aa}{at\+Socket}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is the interaction between the hardware and the software, it is where individual concrete commands get executed. \begin{DoxyAuthor}{Author}
+orpheus 
+\end{DoxyAuthor}
+
+
+Definition at line 12 of file A\+T\+Reciever.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_drone_1_1_hardware_1_1_a_t_reciever_a634fc982b58c475a7bd7b4780416a9bb}{}\index{Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}!A\+T\+Reciever@{A\+T\+Reciever}}
+\index{A\+T\+Reciever@{A\+T\+Reciever}!Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}}
+\subsubsection[{A\+T\+Reciever}]{\setlength{\rightskip}{0pt plus 5cm}Drone.\+Hardware.\+A\+T\+Reciever.\+A\+T\+Reciever (
+\begin{DoxyParamCaption}
+\item[{Inet\+Address}]{inetaddr, }
+\item[{Datagram\+Socket}]{at\+Sock}
+\end{DoxyParamCaption}
+)}\label{class_drone_1_1_hardware_1_1_a_t_reciever_a634fc982b58c475a7bd7b4780416a9bb}
+initialise the Inet\+Address and the Datagram\+Socket 
+
+Definition at line 22 of file A\+T\+Reciever.\+java.
+
+
+\begin{DoxyCode}
+23     \{
+24         \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_a5253dfd32652a64fba8f0f2d00530866}{inet\_addr} = inetaddr;
+25         \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_ac5f975b3bdd5cf7346ff6649daf831aa}{atSocket} = atSock;
+26     \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_drone_1_1_hardware_1_1_a_t_reciever_a93352d75209626cf62bde294b35f9120}{}\index{Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}!send\+\_\+at\+\_\+cmd@{send\+\_\+at\+\_\+cmd}}
+\index{send\+\_\+at\+\_\+cmd@{send\+\_\+at\+\_\+cmd}!Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}}
+\subsubsection[{send\+\_\+at\+\_\+cmd}]{\setlength{\rightskip}{0pt plus 5cm}void Drone.\+Hardware.\+A\+T\+Reciever.\+send\+\_\+at\+\_\+cmd (
+\begin{DoxyParamCaption}
+\item[{String}]{at\+\_\+cmd}
+\end{DoxyParamCaption}
+) throws Exception}\label{class_drone_1_1_hardware_1_1_a_t_reciever_a93352d75209626cf62bde294b35f9120}
+Sends the actual A\+T-\/\+Command passed to it as a string argument. 
+\begin{DoxyParams}{Parameters}
+{\em at\+\_\+cmd} & the A\+T\+\_\+\+Command \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & ??? \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 33 of file A\+T\+Reciever.\+java.
+
+
+
+Referenced by Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Take\+Off.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Auto\+Land.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Hover.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Turn\+Right.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Turn\+Left.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Down.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Right.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Left.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Forward.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Up.\+execute(), Drone.\+Drone\+Commands.\+Cmnd\+\_\+\+Move\+Backward.\+execute(), and Drone\+Basics.\+main().
+
+
+\begin{DoxyCode}
+34     \{
+35 \textcolor{comment}{//      System.out.println("AT command: " + at\_cmd);}
+36         byte[] buffer = (at\_cmd + \textcolor{stringliteral}{"\(\backslash\)r"}).getBytes();
+37         DatagramPacket packet = \textcolor{keyword}{new} DatagramPacket(buffer, buffer.length,
+38                 \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_a5253dfd32652a64fba8f0f2d00530866}{inet\_addr}, 5556);
+39         \hyperlink{class_drone_1_1_hardware_1_1_a_t_reciever_ac5f975b3bdd5cf7346ff6649daf831aa}{atSocket}.send(packet);
+40     \}
+\end{DoxyCode}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drone_1_1_hardware_1_1_a_t_reciever_a93352d75209626cf62bde294b35f9120_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_drone_1_1_hardware_1_1_a_t_reciever_ac5f975b3bdd5cf7346ff6649daf831aa}{}\index{Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}!at\+Socket@{at\+Socket}}
+\index{at\+Socket@{at\+Socket}!Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}}
+\subsubsection[{at\+Socket}]{\setlength{\rightskip}{0pt plus 5cm}Datagram\+Socket Drone.\+Hardware.\+A\+T\+Reciever.\+at\+Socket\hspace{0.3cm}{\ttfamily [private]}}\label{class_drone_1_1_hardware_1_1_a_t_reciever_ac5f975b3bdd5cf7346ff6649daf831aa}
+The socket to send A\+T commands to 
+
+Definition at line 17 of file A\+T\+Reciever.\+java.
+
+\hypertarget{class_drone_1_1_hardware_1_1_a_t_reciever_a5253dfd32652a64fba8f0f2d00530866}{}\index{Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}!inet\+\_\+addr@{inet\+\_\+addr}}
+\index{inet\+\_\+addr@{inet\+\_\+addr}!Drone\+::\+Hardware\+::\+A\+T\+Reciever@{Drone\+::\+Hardware\+::\+A\+T\+Reciever}}
+\subsubsection[{inet\+\_\+addr}]{\setlength{\rightskip}{0pt plus 5cm}Inet\+Address Drone.\+Hardware.\+A\+T\+Reciever.\+inet\+\_\+addr\hspace{0.3cm}{\ttfamily [private]}}\label{class_drone_1_1_hardware_1_1_a_t_reciever_a5253dfd32652a64fba8f0f2d00530866}
+The I\+P address of the drone 
+
+Definition at line 15 of file A\+T\+Reciever.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_a_t_reciever_8java}{A\+T\+Reciever.\+java}\end{DoxyCompactItemize}

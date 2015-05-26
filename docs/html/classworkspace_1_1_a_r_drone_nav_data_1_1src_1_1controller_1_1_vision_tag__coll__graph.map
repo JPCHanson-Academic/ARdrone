@@ -1,0 +1,5 @@
+<map id="workspace.ARDroneNavData.src.controller.VisionTag" name="workspace.ARDroneNavData.src.controller.VisionTag">
+<area shape="rect" id="node2" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_point.html" title="workspace.ARDroneNavData.src.controller.\lPoint" alt="" coords="5,5,301,47"/>
+<area shape="rect" id="node3" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_dimension.html" title="workspace.ARDroneNavData.src.controller.\lDimension" alt="" coords="5,71,301,112"/>
+<area shape="rect" id="node4" title="Values for the detection type on drone cameras. " alt="" coords="5,136,301,177"/>
+</map>

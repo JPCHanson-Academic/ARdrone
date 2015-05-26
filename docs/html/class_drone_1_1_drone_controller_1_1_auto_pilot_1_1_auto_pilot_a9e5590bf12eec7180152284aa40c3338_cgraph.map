@@ -1,0 +1,4 @@
+<map id="Drone.DroneController.AutoPilot.AutoPilot.moveToTarget" name="Drone.DroneController.AutoPilot.AutoPilot.moveToTarget">
+<area shape="rect" id="node2" href="$interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html#ae6fb0ba699d26333d2800f02bd6d1a33" title="Drone.DroneController.Auto\lPilot.AutoPilotState.adjustAction" alt="" coords="260,5,488,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a387d070b622e6a18883eca218826740b" title="Drone.DroneController.Auto\lPilot.AutoPilot.setState" alt="" coords="274,71,474,112"/>
+</map>

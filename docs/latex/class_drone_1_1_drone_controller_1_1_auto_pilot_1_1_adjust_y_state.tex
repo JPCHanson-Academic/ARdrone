@@ -1,0 +1,112 @@
+\hypertarget{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state}{}\section{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State Class Reference}
+\label{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state}\index{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State@{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State}}
+
+
+Inheritance diagram for Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_a000b841e26228d43168ba9da58ed5286}{adjust\+Action} (\hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot}{Auto\+Pilot} autopilot)  throws Exception  	
+\item 
+String \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_af69fe4aecfbc4a3a9307dec873289775}{to\+String} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The autopilot state in which the drone knows its Y coordinate is incorrect. \begin{DoxyAuthor}{Author}
+orpheus 
+\end{DoxyAuthor}
+
+
+Definition at line 7 of file Adjust\+Y\+State.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_a000b841e26228d43168ba9da58ed5286}{}\index{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State}!adjust\+Action@{adjust\+Action}}
+\index{adjust\+Action@{adjust\+Action}!Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State}}
+\subsubsection[{adjust\+Action}]{\setlength{\rightskip}{0pt plus 5cm}void Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State.\+adjust\+Action (
+\begin{DoxyParamCaption}
+\item[{{\bf Auto\+Pilot}}]{autopilot}
+\end{DoxyParamCaption}
+) throws Exception}\label{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_a000b841e26228d43168ba9da58ed5286}
+Compares the current Y to the target Y and moves the drone in the appropriate direction. 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+check if too far forward the if comparisons are switched around as the drone uses negative values for forward motion as the nose goes down.
+
+check if too far back 
+
+Implements \hyperlink{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ae6fb0ba699d26333d2800f02bd6d1a33}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State}.
+
+
+
+Definition at line 16 of file Adjust\+Y\+State.\+java.
+
+
+
+References Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot.\+A\+D\+J\+U\+S\+T\+\_\+\+I\+N\+T\+E\+R\+V\+A\+L, and Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot.\+E\+R\+R\+O\+R.
+
+
+\begin{DoxyCode}
+17     \{
+22         \textcolor{keywordflow}{if} (autopilot.location.getY() < autopilot.yTarget - \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a83dbbe7bc1d63169f5b913963fa9fa92}{AutoPilot}.ERROR)
+23         \{
+24             \textcolor{comment}{//move back}
+25             autopilot.commandManager.backward(\hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a83dbbe7bc1d63169f5b913963fa9fa92}{AutoPilot}.ADJUST\_INTERVAL);
+26         \}
+28         \textcolor{keywordflow}{if} (autopilot.location.getY() > autopilot.yTarget + \hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a83dbbe7bc1d63169f5b913963fa9fa92}{AutoPilot}.ERROR)
+29         \{
+30             \textcolor{comment}{//move forward}
+31             autopilot.commandManager.forward(\hyperlink{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a83dbbe7bc1d63169f5b913963fa9fa92}{AutoPilot}.ADJUST\_INTERVAL);
+32         \}
+33         autopilot.setState(autopilot.defaultState);
+34         autopilot.state.adjustAction(autopilot);
+35     \}
+\end{DoxyCode}
+\hypertarget{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_af69fe4aecfbc4a3a9307dec873289775}{}\index{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State@{Drone\+::\+Drone\+Controller\+::\+Auto\+Pilot\+::\+Adjust\+Y\+State}}
+\subsubsection[{to\+String}]{\setlength{\rightskip}{0pt plus 5cm}String Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Adjust\+Y\+State.\+to\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state_af69fe4aecfbc4a3a9307dec873289775}
+get the string label belonging to the state \begin{DoxyReturn}{Returns}
+\char`\"{}adjusting Y position\char`\"{} 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state_ac30fcebfe95c80d2d66d44dc7d46ebc3}{Drone.\+Drone\+Controller.\+Auto\+Pilot.\+Auto\+Pilot\+State}.
+
+
+
+Definition at line 42 of file Adjust\+Y\+State.\+java.
+
+
+\begin{DoxyCode}
+43     \{
+44         \textcolor{keywordflow}{return} \textcolor{stringliteral}{"adjusting Y position"};
+45     \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_adjust_y_state_8java}{Adjust\+Y\+State.\+java}\end{DoxyCompactItemize}
