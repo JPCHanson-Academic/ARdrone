@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['visiontag_2ejava',['VisionTag.java',['../_vision_tag_8java.html',1,'']]]
+  ['sensormanager_2ejava',['SensorManager.java',['../_sensor_manager_8java.html',1,'']]]
 ];

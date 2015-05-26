@@ -1,0 +1,5 @@
+<map id="Drone.DroneController.AutoPilot.AdjustZState.adjustAction" name="Drone.DroneController.AutoPilot.AdjustZState.adjustAction">
+<area shape="rect" id="node2" href="$interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html#ae6fb0ba699d26333d2800f02bd6d1a33" title="Drone.DroneController.Auto\lPilot.AutoPilotState.adjustAction" alt="" coords="290,5,518,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_location.html#a206f5db58f3f733d62f04262b70664d7" title="Drone.DroneController.Location.getZ" alt="" coords="275,71,533,98"/>
+<area shape="rect" id="node4" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a387d070b622e6a18883eca218826740b" title="Drone.DroneController.Auto\lPilot.AutoPilot.setState" alt="" coords="304,123,504,164"/>
+</map>

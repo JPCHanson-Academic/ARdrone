@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['navdata',['navData',['../class_drone_1_1_hardware_1_1_sensor_manager.html#af52c954878df8ae3ffd3984ea9631048',1,'Drone.Hardware.SensorManager.navData()'],['../class_drone_basics.html#a3417fe356d9cd027e60d0e2ded680bfd',1,'DroneBasics.navdata()']]],
+  ['navdata',['navdata',['../class_drone_basics.html#a3417fe356d9cd027e60d0e2ded680bfd',1,'DroneBasics.navdata()'],['../class_drone_1_1_hardware_1_1_sensor_manager.html#af52c954878df8ae3ffd3984ea9631048',1,'Drone.Hardware.SensorManager.navData()']]],
   ['navdata_5fadc_5fdata_5fframe_5ftag',['NAVDATA_ADC_DATA_FRAME_TAG',['../enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#aa56e262fb10166e236f3bc096b745755',1,'workspace::ARDroneNavData::src::controller::NavDataTag']]],
   ['navdata_5faltitude_5ftag',['NAVDATA_ALTITUDE_TAG',['../enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a99957ed674efd9372a278918adc0ac23',1,'workspace::ARDroneNavData::src::controller::NavDataTag']]],
   ['navdata_5fcks_5ftag',['NAVDATA_CKS_TAG',['../enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ae293b66e01dc8215f4e3511f6745b6c8',1,'workspace::ARDroneNavData::src::controller::NavDataTag']]],

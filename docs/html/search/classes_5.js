@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['location',['Location',['../class_drone_1_1_drone_controller_1_1_location.html',1,'Drone::DroneController']]]
+  ['guage',['Guage',['../class_drone_1_1_view_1_1_guages_1_1_guage.html',1,'Drone::View::Guages']]]
 ];

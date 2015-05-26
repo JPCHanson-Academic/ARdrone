@@ -1,3 +1,5 @@
 <map id="workspace.ARDroneNavData.src.NavData.getLongitude" name="workspace.ARDroneNavData.src.NavData.getLongitude">
-<area shape="rect" id="node2" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#ab38bafbccd1b188ec1dfc1b36aa23984" title="workspace.ARDroneNavData.src.\lNavData.printState" alt="" coords="285,5,517,47"/>
+<area shape="rect" id="node2" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#aabbda2dbc136a5309cafc9b3040c0fe2" title="Drone.Hardware.SensorManager.get\lYvelocity" alt="" coords="285,39,541,80"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_location.html#a3e3939af05bd335336f2ab64d16faffc" title="Drone.DroneController.Location.get\lXYZvelocities" alt="" coords="601,5,851,47"/>
+<area shape="rect" id="node4" href="$class_drone_1_1_drone_controller_1_1_location.html#a98d3c771ad4f7635554cf31c6ca1cdab" title="Drone.DroneController.Location.update\lLocation" alt="" coords="589,71,863,112"/>
 </map>

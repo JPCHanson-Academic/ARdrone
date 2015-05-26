@@ -124,13 +124,19 @@ $(document).ready(function(){initNavTree('_a_t_invoker_8java_source.html','');})
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        command = cmmnd;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a0dfcc8b67f8642820b66411954452d06">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a0dfcc8b67f8642820b66411954452d06">execute</a>() throws Exception</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a0dfcc8b67f8642820b66411954452d06">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a0dfcc8b67f8642820b66411954452d06">execute</a>()</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        command.<a class="code" href="interface_drone_1_1_drone_commands_1_1_a_t_command.html#a5205ae7a2269e1a82923c166322e1374">execute</a>(sequenceNum);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ++<a class="code" href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a3f43a20e12de8cc4f0c652f3c7a3f977">sequenceNum</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        Thread.sleep(40l, 0);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">try</span> </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            command.<a class="code" href="interface_drone_1_1_drone_commands_1_1_a_t_command.html#a5205ae7a2269e1a82923c166322e1374">execute</a>(sequenceNum);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        } </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">catch</span> (Exception e) </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            System.out.println(<span class="stringliteral">&quot;--AT_Command execute() error--&quot;</span>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        ++<a class="code" href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a3f43a20e12de8cc4f0c652f3c7a3f977">sequenceNum</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 <div class="ttc" id="class_drone_1_1_drone_commands_1_1_a_t_invoker_html_a0dfcc8b67f8642820b66411954452d06"><div class="ttname"><a href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a0dfcc8b67f8642820b66411954452d06">Drone.DroneCommands.ATInvoker.execute</a></div><div class="ttdeci">void execute()</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_invoker_8java_source.html#l00042">ATInvoker.java:42</a></div></div>
 <div class="ttc" id="class_drone_1_1_drone_commands_1_1_a_t_invoker_html_a8d5969ed00c3e025b91905bf34bb60ed"><div class="ttname"><a href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#a8d5969ed00c3e025b91905bf34bb60ed">Drone.DroneCommands.ATInvoker.command</a></div><div class="ttdeci">ATCommand command</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_invoker_8java_source.html#l00015">ATInvoker.java:15</a></div></div>
 <div class="ttc" id="class_drone_1_1_drone_commands_1_1_a_t_invoker_html_acb72cb6d2cccdb9942c0bf6b9f1545a8"><div class="ttname"><a href="class_drone_1_1_drone_commands_1_1_a_t_invoker.html#acb72cb6d2cccdb9942c0bf6b9f1545a8">Drone.DroneCommands.ATInvoker.ATInvoker</a></div><div class="ttdeci">ATInvoker()</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_invoker_8java_source.html#l00023">ATInvoker.java:23</a></div></div>
@@ -145,7 +151,7 @@ $(document).ready(function(){initNavTree('_a_t_invoker_8java_source.html','');})
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_04136d8ec09b3bb5586d120286679290.html">Drone</a></li><li class="navelem"><a class="el" href="dir_57d5559117eb1a5e10abff1ae3d57990.html">DroneCommands</a></li><li class="navelem"><a class="el" href="_a_t_invoker_8java.html">ATInvoker.java</a></li>
-    <li class="footer">Generated on Sat May 23 2015 23:19:22 for Life of 3.14159 by
+    <li class="footer">Generated on Tue May 26 2015 22:01:09 for Life of 3.14159 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

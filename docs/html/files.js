@@ -27,6 +27,9 @@ var files =
     [ "AutoPilotState.java", "_auto_pilot_state_8java.html", [
       [ "AutoPilotState", "interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html", "interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state" ]
     ] ],
+    [ "BasicSwingView.java", "_basic_swing_view_8java.html", [
+      [ "BasicSwingView", "class_drone_1_1_view_1_1_basic_swing_view.html", "class_drone_1_1_view_1_1_basic_swing_view" ]
+    ] ],
     [ "Cmnd_AutoLand.java", "_cmnd___auto_land_8java.html", [
       [ "Cmnd_AutoLand", "class_drone_1_1_drone_commands_1_1_cmnd___auto_land.html", "class_drone_1_1_drone_commands_1_1_cmnd___auto_land" ]
     ] ],
@@ -78,11 +81,14 @@ var files =
     [ "DisplayCameraImage.java", "_display_camera_image_8java.html", [
       [ "DisplayCameraImage", "classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html", null ]
     ] ],
+    [ "Drone.java", "_drone_8java.html", [
+      [ "Drone", "class_drone_1_1_drone.html", null ]
+    ] ],
     [ "DroneBasics.java", "_drone_basics_8java.html", [
       [ "DroneBasics", "class_drone_basics.html", null ]
     ] ],
     [ "DroneController.java", "_drone_controller_8java.html", [
-      [ "DroneController", "class_drone_1_1_drone_controller_1_1_drone_controller.html", null ]
+      [ "DroneController", "class_drone_1_1_drone_controller_1_1_drone_controller.html", "class_drone_1_1_drone_controller_1_1_drone_controller" ]
     ] ],
     [ "DroneTest.java", "_drone_test_8java.html", [
       [ "DroneTest", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_drone_test.html", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_drone_test" ]
@@ -92,6 +98,9 @@ var files =
     ] ],
     [ "FlyingState.java", "_flying_state_8java.html", [
       [ "FlyingState", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_flying_state.html", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_flying_state" ]
+    ] ],
+    [ "Guage.java", "_guage_8java.html", [
+      [ "Guage", "class_drone_1_1_view_1_1_guages_1_1_guage.html", "class_drone_1_1_view_1_1_guages_1_1_guage" ]
     ] ],
     [ "IntToFloat.java", "_int_to_float_8java.html", [
       [ "IntToFloat", "class_drone_1_1_helpers_1_1_int_to_float.html", null ]
@@ -121,6 +130,9 @@ var files =
     ] ],
     [ "ThinkingState.java", "_thinking_state_8java.html", [
       [ "ThinkingState", "class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state.html", "class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state" ]
+    ] ],
+    [ "View.java", "_view_8java.html", [
+      [ "View", "interface_drone_1_1_view_1_1_view.html", "interface_drone_1_1_view_1_1_view" ]
     ] ],
     [ "VisionTag.java", "_vision_tag_8java.html", [
       [ "VisionTag", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_vision_tag.html", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_vision_tag" ]

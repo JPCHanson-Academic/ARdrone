@@ -107,42 +107,57 @@ $(document).ready(function(){initNavTree('_a_t_reciever_8java_source.html','');}
 </div><!--header-->
 <div class="contents">
 <a href="_a_t_reciever_8java.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespace_drone_1_1_hardware.html">    1</a></span>&#160;<span class="keyword">package </span>Drone.Hardware;</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">import</span> java.net.DatagramPacket;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> java.net.DatagramSocket;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> java.net.InetAddress;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html">   12</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html">ATReciever</a> </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a5253dfd32652a64fba8f0f2d00530866">   15</a></span>&#160;    <span class="keyword">private</span> InetAddress <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a5253dfd32652a64fba8f0f2d00530866">inet_addr</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#ac5f975b3bdd5cf7346ff6649daf831aa">   17</a></span>&#160;    <span class="keyword">private</span> DatagramSocket <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#ac5f975b3bdd5cf7346ff6649daf831aa">atSocket</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a634fc982b58c475a7bd7b4780416a9bb">   22</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a634fc982b58c475a7bd7b4780416a9bb">ATReciever</a>(InetAddress inetaddr, DatagramSocket atSock)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        inet_addr = inetaddr;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        atSocket = atSock;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a93352d75209626cf62bde294b35f9120">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a93352d75209626cf62bde294b35f9120">send_at_cmd</a>(String at_cmd) <span class="keywordflow">throws</span> Exception </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">//      System.out.println(&quot;AT command: &quot; + at_cmd);</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        byte[] buffer = (at_cmd + <span class="stringliteral">&quot;\r&quot;</span>).getBytes();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        DatagramPacket packet = <span class="keyword">new</span> DatagramPacket(buffer, buffer.length,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                inet_addr, 5556);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        atSocket.send(packet);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_ac5f975b3bdd5cf7346ff6649daf831aa"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#ac5f975b3bdd5cf7346ff6649daf831aa">Drone.Hardware.ATReciever.atSocket</a></div><div class="ttdeci">DatagramSocket atSocket</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00017">ATReciever.java:17</a></div></div>
-<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_a5253dfd32652a64fba8f0f2d00530866"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a5253dfd32652a64fba8f0f2d00530866">Drone.Hardware.ATReciever.inet_addr</a></div><div class="ttdeci">InetAddress inet_addr</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00015">ATReciever.java:15</a></div></div>
-<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html">Drone.Hardware.ATReciever</a></div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00012">ATReciever.java:12</a></div></div>
-<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_a93352d75209626cf62bde294b35f9120"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a93352d75209626cf62bde294b35f9120">Drone.Hardware.ATReciever.send_at_cmd</a></div><div class="ttdeci">void send_at_cmd(String at_cmd)</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00033">ATReciever.java:33</a></div></div>
-<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_a634fc982b58c475a7bd7b4780416a9bb"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a634fc982b58c475a7bd7b4780416a9bb">Drone.Hardware.ATReciever.ATReciever</a></div><div class="ttdeci">ATReciever(InetAddress inetaddr, DatagramSocket atSock)</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00022">ATReciever.java:22</a></div></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">import</span> java.io.IOException;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> java.net.DatagramPacket;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> java.net.DatagramSocket;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">import</span> java.net.InetAddress;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html">   13</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html">ATReciever</a> </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a5253dfd32652a64fba8f0f2d00530866">   16</a></span>&#160;    <span class="keyword">private</span> InetAddress <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a5253dfd32652a64fba8f0f2d00530866">inet_addr</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#ac5f975b3bdd5cf7346ff6649daf831aa">   18</a></span>&#160;    <span class="keyword">private</span> DatagramSocket <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#ac5f975b3bdd5cf7346ff6649daf831aa">atSocket</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a634fc982b58c475a7bd7b4780416a9bb">   23</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a634fc982b58c475a7bd7b4780416a9bb">ATReciever</a>(InetAddress inetaddr, DatagramSocket atSock)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        inet_addr = inetaddr;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        atSocket = atSock;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a93352d75209626cf62bde294b35f9120">   34</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a93352d75209626cf62bde294b35f9120">send_at_cmd</a>(String at_cmd) </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">//      System.out.println(&quot;AT command: &quot; + at_cmd);</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        byte[] buffer = (at_cmd + <span class="stringliteral">&quot;\r&quot;</span>).getBytes();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        DatagramPacket packet = <span class="keyword">new</span> DatagramPacket(buffer, buffer.length,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                inet_addr, 5556);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            atSocket.send(packet);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            Thread.sleep(200, 0);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            } </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">catch</span> (IOException e) </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            System.out.println(<span class="stringliteral">&quot;--Could Not Send Packet: &quot;</span>+at_cmd+<span class="stringliteral">&quot;--&quot;</span>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">catch</span> (InterruptedException iE)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            System.out.println(<span class="stringliteral">&quot;--Thread Cannot Sleep--&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_ac5f975b3bdd5cf7346ff6649daf831aa"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#ac5f975b3bdd5cf7346ff6649daf831aa">Drone.Hardware.ATReciever.atSocket</a></div><div class="ttdeci">DatagramSocket atSocket</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00018">ATReciever.java:18</a></div></div>
+<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_a5253dfd32652a64fba8f0f2d00530866"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a5253dfd32652a64fba8f0f2d00530866">Drone.Hardware.ATReciever.inet_addr</a></div><div class="ttdeci">InetAddress inet_addr</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00016">ATReciever.java:16</a></div></div>
+<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html">Drone.Hardware.ATReciever</a></div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00013">ATReciever.java:13</a></div></div>
+<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_a93352d75209626cf62bde294b35f9120"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a93352d75209626cf62bde294b35f9120">Drone.Hardware.ATReciever.send_at_cmd</a></div><div class="ttdeci">void send_at_cmd(String at_cmd)</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00034">ATReciever.java:34</a></div></div>
+<div class="ttc" id="class_drone_1_1_hardware_1_1_a_t_reciever_html_a634fc982b58c475a7bd7b4780416a9bb"><div class="ttname"><a href="class_drone_1_1_hardware_1_1_a_t_reciever.html#a634fc982b58c475a7bd7b4780416a9bb">Drone.Hardware.ATReciever.ATReciever</a></div><div class="ttdeci">ATReciever(InetAddress inetaddr, DatagramSocket atSock)</div><div class="ttdef"><b>Definition:</b> <a href="_a_t_reciever_8java_source.html#l00023">ATReciever.java:23</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_04136d8ec09b3bb5586d120286679290.html">Drone</a></li><li class="navelem"><a class="el" href="dir_71f944b90b468cdaf2831ea36477a6df.html">Hardware</a></li><li class="navelem"><a class="el" href="_a_t_reciever_8java.html">ATReciever.java</a></li>
-    <li class="footer">Generated on Sat May 23 2015 23:19:22 for Life of 3.14159 by
+    <li class="footer">Generated on Tue May 26 2015 22:01:09 for Life of 3.14159 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

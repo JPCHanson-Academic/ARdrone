@@ -3,6 +3,7 @@ var class_drone_1_1_drone_controller_1_1_location =
     [ "Location", "class_drone_1_1_drone_controller_1_1_location.html#afa93ffeb3f24443667d192fc59593d00", null ],
     [ "centerWorld", "class_drone_1_1_drone_controller_1_1_location.html#ade44c8d7ef40f76ed148998673e18394", null ],
     [ "getX", "class_drone_1_1_drone_controller_1_1_location.html#adf8e1ace00496678b463f7d80535cc32", null ],
+    [ "getXYZvelocities", "class_drone_1_1_drone_controller_1_1_location.html#a3e3939af05bd335336f2ab64d16faffc", null ],
     [ "getY", "class_drone_1_1_drone_controller_1_1_location.html#afe958692386cf433f38c4badd4c945c2", null ],
     [ "getZ", "class_drone_1_1_drone_controller_1_1_location.html#a206f5db58f3f733d62f04262b70664d7", null ],
     [ "updateLocation", "class_drone_1_1_drone_controller_1_1_location.html#a98d3c771ad4f7635554cf31c6ca1cdab", null ],

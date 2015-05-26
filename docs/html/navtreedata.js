@@ -23,7 +23,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_t___command___manager_8java.html",
-"classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_vision_tag.html#a2595b21759b356e08f3946cbca3a3e46"
+"class_drone_1_1_view_1_1_guages_1_1_guage.html#ae636bb380f5bc3284b94ad3e0ec60f26"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,3 +1,4 @@
 <map id="Drone.Hardware.SensorManager.getXvelocity" name="Drone.Hardware.SensorManager.getXvelocity">
-<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_location.html#a98d3c771ad4f7635554cf31c6ca1cdab" title="Drone.DroneController.Location.update\lLocation" alt="" coords="309,5,583,47"/>
+<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_location.html#a3e3939af05bd335336f2ab64d16faffc" title="Drone.DroneController.Location.get\lXYZvelocities" alt="" coords="321,5,571,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_location.html#a98d3c771ad4f7635554cf31c6ca1cdab" title="Drone.DroneController.Location.update\lLocation" alt="" coords="309,71,583,112"/>
 </map>

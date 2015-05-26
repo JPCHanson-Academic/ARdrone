@@ -29,6 +29,7 @@ var hierarchy =
     [ "workspace.ARDroneStreamImage.src.DecodeAndPlayVideo", "classworkspace_1_1_a_r_drone_stream_image_1_1src_1_1_decode_and_play_video.html", null ],
     [ "workspace.ARDroneNavData.src.controller.Dimension", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_dimension.html", null ],
     [ "workspace.ARDroneCaptureImage.src.DisplayCameraImage", "classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html", null ],
+    [ "Drone.Drone", "class_drone_1_1_drone.html", null ],
     [ "DroneBasics", "class_drone_basics.html", null ],
     [ "Drone.DroneController.DroneController", "class_drone_1_1_drone_controller_1_1_drone_controller.html", null ],
     [ "workspace.ARDroneNavData.src.controller.DroneTest", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_drone_test.html", null ],
@@ -43,5 +44,11 @@ var hierarchy =
     [ "workspace.ARDroneNavData.src.controller.NavDataTag", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html", null ],
     [ "workspace.ARDroneNavData.src.controller.Point", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_point.html", null ],
     [ "workspace.ARDroneCaptureImage.src.QRTools", "classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_q_r_tools.html", null ],
-    [ "workspace.ARDroneNavData.src.controller.VisionTag", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_vision_tag.html", null ]
+    [ "Drone.View.View", "interface_drone_1_1_view_1_1_view.html", [
+      [ "Drone.View.BasicSwingView", "class_drone_1_1_view_1_1_basic_swing_view.html", null ]
+    ] ],
+    [ "workspace.ARDroneNavData.src.controller.VisionTag", "classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_vision_tag.html", null ],
+    [ "JPanel", null, [
+      [ "Drone.View.Guages.Guage", "class_drone_1_1_view_1_1_guages_1_1_guage.html", null ]
+    ] ]
 ];

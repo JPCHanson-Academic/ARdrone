@@ -15,6 +15,7 @@ var searchData=
   ['cmnd_5ftakeoff',['Cmnd_TakeOff',['../class_drone_1_1_drone_commands_1_1_cmnd___take_off.html#adc7675196bf02d255a5d0d099f359a54',1,'Drone::DroneCommands::Cmnd_TakeOff']]],
   ['cmnd_5fturnleft',['Cmnd_TurnLeft',['../class_drone_1_1_drone_commands_1_1_cmnd___turn_left.html#acb76c1a77ccd3e4a70c5749acdcc2c23',1,'Drone::DroneCommands::Cmnd_TurnLeft']]],
   ['cmnd_5fturnright',['Cmnd_TurnRight',['../class_drone_1_1_drone_commands_1_1_cmnd___turn_right.html#a01cdd7a0d2725efd022f45a823cad84a',1,'Drone::DroneCommands::Cmnd_TurnRight']]],
+  ['combineguicomponents',['combineGUIComponents',['../class_drone_1_1_view_1_1_basic_swing_view.html#af9b1bd4f8d452c6d01a2beda22f17b5d',1,'Drone::View::BasicSwingView']]],
   ['coordinates',['Coordinates',['../class_drone_1_1_helpers_1_1_coordinates.html#a05c9f6433cf82afb45588d0071ca678f',1,'Drone.Helpers.Coordinates.Coordinates()'],['../class_drone_1_1_helpers_1_1_coordinates.html#a59caf73ce9dc36e520baf59e0cc3e4fc',1,'Drone.Helpers.Coordinates.Coordinates(float xVal, float yVal, float zVal)']]],
   ['createfromdata',['createFromData',['../classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_drone_test.html#aa4c10cb1b2c95573f9c49fe9bb943f6d',1,'workspace.ARDroneNavData.src.controller.DroneTest.createFromData()'],['../classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a48f7de7994b48a30f09910e9971d300d',1,'workspace.ARDroneNavData.src.NavData.createFromData()']]]
 ];

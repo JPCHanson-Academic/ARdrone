@@ -1,5 +1,6 @@
 <map id="workspace.ARDroneNavData.src.NavData.main" name="workspace.ARDroneNavData.src.NavData.main">
 <area shape="rect" id="node2" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a48f7de7994b48a30f09910e9971d300d" title="workspace.ARDroneNavData.src.\lNavData.createFromData" alt="" coords="285,71,517,112"/>
+<area shape="rect" id="node7" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a26c1f5059f0673a3a498ea4e382a7588" title="workspace.ARDroneNavData.src.\lNavData.send_at_cmd" alt="" coords="285,136,517,177"/>
 <area shape="rect" id="node3" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a5bf3b738d8cfc76f9e52de7d13c613cf" title="workspace.ARDroneNavData.src.\lNavData.parseDemoNavData" alt="" coords="565,5,797,47"/>
 <area shape="rect" id="node5" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a7644e4b560209b4b0c2cb96084970acd" title="workspace.ARDroneNavData.src.\lNavData.parseVisionTags" alt="" coords="565,71,797,112"/>
 <area shape="rect" id="node6" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a636d7e555be5221385f60d6d9635363e" title="workspace.ARDroneNavData.src.\lNavData.setVisionTags" alt="" coords="565,136,797,177"/>

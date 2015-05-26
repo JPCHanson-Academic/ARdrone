@@ -1,5 +1,5 @@
 <map id="Drone.DroneController.DroneController" name="Drone.DroneController.DroneController">
-<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html" title="Drone.DroneController.Auto\lPilot.AutoPilot" alt="" coords="1301,325,1501,366"/>
+<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html" title="Drone.DroneController.Auto\lPilot.AutoPilot" alt="" coords="1301,329,1501,370"/>
 <area shape="rect" id="node3" href="$class_drone_1_1_drone_commands_1_1_a_t___command___manager.html" title="Drone.DroneCommands.AT\l_Command_Manager" alt="" coords="897,238,1095,279"/>
 <area shape="rect" id="node11" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html" title="workspace.ARDroneNavData.src.\lNavData" alt="" coords="880,478,1112,519"/>
 <area shape="rect" id="node5" href="$interface_drone_1_1_drone_commands_1_1_a_t_command.html" title="Drone.DroneCommands.ATCommand" alt="" coords="5,144,271,171"/>
@@ -10,4 +10,5 @@
 <area shape="rect" id="node12" href="$enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_control_algorithm.html" title="workspace.ARDroneNavData.src.controller.\lControlAlgorithm" alt="" coords="405,422,701,463"/>
 <area shape="rect" id="node13" href="$enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_ctrl_state.html" title="workspace.ARDroneNavData.src.controller.\lCtrlState" alt="" coords="405,487,701,529"/>
 <area shape="rect" id="node14" href="$enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_mode.html" title="workspace.ARDroneNavData.src.controller.Mode" alt="" coords="388,553,719,580"/>
+<area shape="rect" id="node16" href="$interface_drone_1_1_view_1_1_view.html" title="Drone.View.View" alt="" coords="1337,523,1464,549"/>
 </map>

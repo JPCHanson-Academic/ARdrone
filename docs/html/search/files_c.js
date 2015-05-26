@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sensormanager_2ejava',['SensorManager.java',['../_sensor_manager_8java.html',1,'']]]
+  ['point_2ejava',['Point.java',['../_point_8java.html',1,'']]]
 ];

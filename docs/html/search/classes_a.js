@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sensormanager',['SensorManager',['../class_drone_1_1_hardware_1_1_sensor_manager.html',1,'Drone::Hardware']]]
+  ['point',['Point',['../classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_point.html',1,'workspace::ARDroneNavData::src::controller']]]
 ];

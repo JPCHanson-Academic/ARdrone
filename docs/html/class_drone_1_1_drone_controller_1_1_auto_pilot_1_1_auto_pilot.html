@@ -127,7 +127,7 @@ Collaboration diagram for Drone.DroneController.AutoPilot.AutoPilot:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a83dbbe7bc1d63169f5b913963fa9fa92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a83dbbe7bc1d63169f5b913963fa9fa92">AutoPilot</a> (<a class="el" href="class_drone_1_1_drone_controller_1_1_location.html">Location</a> loc, <a class="el" href="class_drone_1_1_drone_commands_1_1_a_t___command___manager.html">AT_Command_Manager</a> cm)</td></tr>
 <tr class="separator:a83dbbe7bc1d63169f5b913963fa9fa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e5590bf12eec7180152284aa40c3338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a9e5590bf12eec7180152284aa40c3338">moveToTarget</a> (<a class="el" href="class_drone_1_1_helpers_1_1_coordinates.html">Coordinates</a> target)  throws Exception 	</td></tr>
+<tr class="memitem:a9e5590bf12eec7180152284aa40c3338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a9e5590bf12eec7180152284aa40c3338">moveToTarget</a> (<a class="el" href="class_drone_1_1_helpers_1_1_coordinates.html">Coordinates</a> target)</td></tr>
 <tr class="separator:a9e5590bf12eec7180152284aa40c3338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -219,7 +219,7 @@ Static Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_drone_1_1_helpers_1_1_coordinates.html">Coordinates</a>&#160;</td>
           <td class="paramname"><em>target</em></td><td>)</td>
-          <td> throws Exception</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -238,9 +238,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00054">54</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
 
-<p>References <a class="el" href="interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html#ae6fb0ba699d26333d2800f02bd6d1a33">Drone.DroneController.AutoPilot.AutoPilotState.adjustAction()</a>, and <a class="el" href="_auto_pilot_8java_source.html#l00068">Drone.DroneController.AutoPilot.AutoPilot.setState()</a>.</p>
-
-<p>Referenced by <a class="el" href="_drone_controller_8java_source.html#l00021">Drone.DroneController.DroneController.main()</a>.</p>
+<p>References <a class="el" href="interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html#ae6fb0ba699d26333d2800f02bd6d1a33">Drone.DroneController.AutoPilot.AutoPilotState.adjustAction()</a>, <a class="el" href="_coordinates_8java_source.html#l00056">Drone.Helpers.Coordinates.getX()</a>, <a class="el" href="_coordinates_8java_source.html#l00065">Drone.Helpers.Coordinates.getY()</a>, <a class="el" href="_coordinates_8java_source.html#l00074">Drone.Helpers.Coordinates.getZ()</a>, and <a class="el" href="_auto_pilot_8java_source.html#l00068">Drone.DroneController.AutoPilot.AutoPilot.setState()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a7dac3f41e1f2053306c9f1ee1f52f4d3">xTarget</a> = target.getX();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a2b12dc818a6868850498f3626bdfd62f">yTarget</a> = target.getY();</div>
@@ -262,16 +260,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_cgraph.png" border="0" usemap="#class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_cgraph" alt=""/></div>
 <map name="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_cgraph" id="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_cgraph">
-<area shape="rect" id="node2" href="interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html#ae6fb0ba699d26333d2800f02bd6d1a33" title="Drone.DroneController.Auto\lPilot.AutoPilotState.adjustAction" alt="" coords="260,5,488,47"/><area shape="rect" id="node3" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a387d070b622e6a18883eca218826740b" title="Drone.DroneController.Auto\lPilot.AutoPilot.setState" alt="" coords="274,71,474,112"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_icgraph.png" border="0" usemap="#class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_icgraph" alt=""/></div>
-<map name="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_icgraph" id="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a9e5590bf12eec7180152284aa40c3338_icgraph">
-<area shape="rect" id="node2" href="class_drone_1_1_drone_controller_1_1_drone_controller.html#ac7542dd428ccd58fcb2431e4b8db9dc4" title="Drone.DroneController.Drone\lController.main" alt="" coords="260,5,469,47"/></map>
+<area shape="rect" id="node2" href="interface_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_state.html#ae6fb0ba699d26333d2800f02bd6d1a33" title="Drone.DroneController.Auto\lPilot.AutoPilotState.adjustAction" alt="" coords="261,5,489,47"/><area shape="rect" id="node3" href="class_drone_1_1_helpers_1_1_coordinates.html#ac717573767f0fde40e86c17d476d1ddc" title="Drone.Helpers.Coordinates.getX" alt="" coords="260,71,491,98"/><area shape="rect" id="node4" href="class_drone_1_1_helpers_1_1_coordinates.html#a9ce8bac426733f2a36e20a02c8cd36e1" title="Drone.Helpers.Coordinates.getY" alt="" coords="262,122,489,149"/><area shape="rect" id="node5" href="class_drone_1_1_helpers_1_1_coordinates.html#a725747e253009d002ace3e2797e1ce99" title="Drone.Helpers.Coordinates.getZ" alt="" coords="260,173,491,199"/><area shape="rect" id="node6" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a387d070b622e6a18883eca218826740b" title="Drone.DroneController.Auto\lPilot.AutoPilot.setState" alt="" coords="275,224,475,265"/></map>
 </div>
 </p>
 
@@ -307,7 +296,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00068">68</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
 
-<p>Referenced by <a class="el" href="_auto_pilot_8java_source.html#l00054">Drone.DroneController.AutoPilot.AutoPilot.moveToTarget()</a>.</p>
+<p>Referenced by <a class="el" href="_adjust_x_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustXState.adjustAction()</a>, <a class="el" href="_adjust_y_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustYState.adjustAction()</a>, <a class="el" href="_adjust_z_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustZState.adjustAction()</a>, <a class="el" href="_thinking_state_8java_source.html#l00019">Drone.DroneController.AutoPilot.ThinkingState.adjustAction()</a>, and <a class="el" href="_auto_pilot_8java_source.html#l00054">Drone.DroneController.AutoPilot.AutoPilot.moveToTarget()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#aeddcac2f0c541e42b2d1034e7d2c6ea0">state</a> = aState;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
@@ -318,7 +307,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a387d070b622e6a18883eca218826740b_icgraph.png" border="0" usemap="#class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a387d070b622e6a18883eca218826740b_icgraph" alt=""/></div>
 <map name="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a387d070b622e6a18883eca218826740b_icgraph" id="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot_a387d070b622e6a18883eca218826740b_icgraph">
-<area shape="rect" id="node2" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a9e5590bf12eec7180152284aa40c3338" title="Drone.DroneController.Auto\lPilot.AutoPilot.moveToTarget" alt="" coords="253,5,460,47"/><area shape="rect" id="node3" href="class_drone_1_1_drone_controller_1_1_drone_controller.html#ac7542dd428ccd58fcb2431e4b8db9dc4" title="Drone.DroneController.Drone\lController.main" alt="" coords="508,5,717,47"/></map>
+<area shape="rect" id="node2" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_x_state.html#ac148c7c38a17b8ae7aab2ab1483e1a3c" title="Drone.DroneController.Auto\lPilot.AdjustXState.adjustAction" alt="" coords="254,5,475,47"/><area shape="rect" id="node3" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state.html#a000b841e26228d43168ba9da58ed5286" title="Drone.DroneController.Auto\lPilot.AdjustYState.adjustAction" alt="" coords="255,71,474,112"/><area shape="rect" id="node4" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_z_state.html#a44c3058abe028db23824d490d0b102c9" title="Drone.DroneController.Auto\lPilot.AdjustZState.adjustAction" alt="" coords="254,136,475,177"/><area shape="rect" id="node5" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state.html#a93bd4237b77019c4ac9551ccd5d25418" title="Drone.DroneController.Auto\lPilot.ThinkingState.adjustAction" alt="" coords="253,201,476,243"/><area shape="rect" id="node6" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a9e5590bf12eec7180152284aa40c3338" title="Drone.DroneController.Auto\lPilot.AutoPilot.moveToTarget" alt="" coords="261,267,468,308"/></map>
 </div>
 </p>
 
@@ -371,6 +360,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00025">25</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
 
+<p>Referenced by <a class="el" href="_adjust_x_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustXState.adjustAction()</a>, <a class="el" href="_adjust_z_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustZState.adjustAction()</a>, and <a class="el" href="_adjust_y_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustYState.adjustAction()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ade2467dd822e41b4543f86a5298184d7"></a>
@@ -392,6 +383,8 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00028">28</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
+
+<p>Referenced by <a class="el" href="_adjust_x_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustXState.adjustAction()</a>, <a class="el" href="_adjust_z_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustZState.adjustAction()</a>, and <a class="el" href="_adjust_y_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustYState.adjustAction()</a>.</p>
 
 </div>
 </div>
@@ -441,6 +434,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00023">23</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
 
+<p>Referenced by <a class="el" href="_adjust_x_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustXState.adjustAction()</a>, <a class="el" href="_adjust_y_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustYState.adjustAction()</a>, <a class="el" href="_adjust_z_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustZState.adjustAction()</a>, and <a class="el" href="_thinking_state_8java_source.html#l00019">Drone.DroneController.AutoPilot.ThinkingState.adjustAction()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aeddcac2f0c541e42b2d1034e7d2c6ea0"></a>
@@ -463,6 +458,8 @@ Here is the caller graph for this function:</div>
 <p>internal reference to state object </p>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00027">27</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
+
+<p>Referenced by <a class="el" href="_adjust_x_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustXState.adjustAction()</a>, <a class="el" href="_adjust_y_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustYState.adjustAction()</a>, <a class="el" href="_adjust_z_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustZState.adjustAction()</a>, and <a class="el" href="_thinking_state_8java_source.html#l00019">Drone.DroneController.AutoPilot.ThinkingState.adjustAction()</a>.</p>
 
 </div>
 </div>
@@ -487,6 +484,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00030">30</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
 
+<p>Referenced by <a class="el" href="_adjust_x_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustXState.adjustAction()</a>, and <a class="el" href="_thinking_state_8java_source.html#l00019">Drone.DroneController.AutoPilot.ThinkingState.adjustAction()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2b12dc818a6868850498f3626bdfd62f"></a>
@@ -509,6 +508,8 @@ Here is the caller graph for this function:</div>
 <p>target Y-coord </p>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00032">32</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
+
+<p>Referenced by <a class="el" href="_adjust_y_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustYState.adjustAction()</a>, and <a class="el" href="_thinking_state_8java_source.html#l00019">Drone.DroneController.AutoPilot.ThinkingState.adjustAction()</a>.</p>
 
 </div>
 </div>
@@ -533,6 +534,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="_auto_pilot_8java_source.html#l00034">34</a> of file <a class="el" href="_auto_pilot_8java_source.html">AutoPilot.java</a>.</p>
 
+<p>Referenced by <a class="el" href="_adjust_z_state_8java_source.html#l00016">Drone.DroneController.AutoPilot.AdjustZState.adjustAction()</a>, and <a class="el" href="_thinking_state_8java_source.html#l00019">Drone.DroneController.AutoPilot.ThinkingState.adjustAction()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -544,7 +547,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_drone.html">Drone</a></li><li class="navelem"><a class="el" href="namespace_drone_1_1_drone_controller.html">DroneController</a></li><li class="navelem"><a class="el" href="namespace_drone_1_1_drone_controller_1_1_auto_pilot.html">AutoPilot</a></li><li class="navelem"><a class="el" href="class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html">AutoPilot</a></li>
-    <li class="footer">Generated on Sat May 23 2015 23:19:23 for Life of 3.14159 by
+    <li class="footer">Generated on Tue May 26 2015 22:01:10 for Life of 3.14159 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

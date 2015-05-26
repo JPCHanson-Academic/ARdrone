@@ -6,6 +6,7 @@ var searchData=
   ['decodeqrcode',['DecodeQRCode',['../classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_q_r_tools.html#a0be4c483192776f45ff0fae15c54a870',1,'workspace.ARDroneCaptureImage.src.QRTools.DecodeQRCode(BufferedImage image)'],['../classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_q_r_tools.html#a2a0657098c3e0105d1512ed949e22e6a',1,'workspace.ARDroneCaptureImage.src.QRTools.DecodeQRCode(String filename)']]],
   ['default',['DEFAULT',['../enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_ctrl_state.html#a11f5358850776e864fd2b9b41d16bd01',1,'workspace::ARDroneNavData::src::controller::CtrlState']]],
   ['defaultstate',['defaultState',['../class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#ade2467dd822e41b4543f86a5298184d7',1,'Drone::DroneController::AutoPilot::AutoPilot']]],
+  ['defaultvalue',['defaultValue',['../class_drone_1_1_view_1_1_guages_1_1_guage.html#ad50ac7ddc71379a09197ee3d7bd240da',1,'Drone::View::Guages::Guage']]],
   ['demo',['DEMO',['../enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_mode.html#a09071332c54725b55b8f88c41ec504d1',1,'workspace::ARDroneNavData::src::controller::Mode']]],
   ['dimension',['Dimension',['../classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_dimension.html',1,'workspace::ARDroneNavData::src::controller']]],
   ['dimension',['Dimension',['../classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_dimension.html#ad6acfc6e5b360a547a9b7a9a89191e16',1,'workspace::ARDroneNavData::src::controller::Dimension']]],
@@ -16,6 +17,8 @@ var searchData=
   ['distance',['distance',['../classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_vision_tag.html#a63eb0f5f6caa5bb491fa86a55e50a5e9',1,'workspace::ARDroneNavData::src::controller::VisionTag']]],
   ['down',['down',['../class_drone_1_1_drone_commands_1_1_a_t___command___manager.html#a76f949b34a87e8577a41c02f410b97cc',1,'Drone.DroneCommands.AT_Command_Manager.down()'],['../class_drone_1_1_drone_commands_1_1_a_t___command___manager.html#aac0d7629bb414d4043d626746c5a92ee',1,'Drone.DroneCommands.AT_Command_Manager.down(int time)']]],
   ['drone',['Drone',['../namespace_drone.html',1,'']]],
+  ['drone',['Drone',['../class_drone_1_1_drone.html',1,'Drone']]],
+  ['drone_2ejava',['Drone.java',['../_drone_8java.html',1,'']]],
   ['dronebasics',['DroneBasics',['../class_drone_basics.html',1,'']]],
   ['dronebasics_2ejava',['DroneBasics.java',['../_drone_basics_8java.html',1,'']]],
   ['dronecommands',['DroneCommands',['../namespace_drone_1_1_drone_commands.html',1,'Drone']]],
@@ -27,6 +30,8 @@ var searchData=
   ['dronetools',['DroneTools',['../classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_drone_tools.html',1,'workspace::ARDroneCaptureImage::src']]],
   ['dronetools_2ejava',['DroneTools.java',['../_drone_tools_8java.html',1,'']]],
   ['dumpimagetofile',['dumpImageToFile',['../classworkspace_1_1_a_r_drone_stream_image_1_1src_1_1_decode_and_play_video.html#a4b64105523009d77a348998cce13aa15',1,'workspace::ARDroneStreamImage::src::DecodeAndPlayVideo']]],
+  ['guages',['Guages',['../namespace_drone_1_1_view_1_1_guages.html',1,'Drone::View']]],
   ['hardware',['Hardware',['../namespace_drone_1_1_hardware.html',1,'Drone']]],
-  ['helpers',['Helpers',['../namespace_drone_1_1_helpers.html',1,'Drone']]]
+  ['helpers',['Helpers',['../namespace_drone_1_1_helpers.html',1,'Drone']]],
+  ['view',['View',['../namespace_drone_1_1_view.html',1,'Drone']]]
 ];
