@@ -1,0 +1,5 @@
+package controller1;
+public enum Mode
+{
+    BOOTSTRAP, DEMO
+}

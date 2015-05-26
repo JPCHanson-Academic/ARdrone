@@ -1,0 +1,7 @@
+<map id="workspace.ARDroneNavData.src.NavData.getAltitude" name="workspace.ARDroneNavData.src.NavData.getAltitude">
+<area shape="rect" id="node2" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#a79458552d1dc0b44fa31b548796b06e6" title="Drone.Hardware.SensorManager.get\lAltitude" alt="" coords="285,5,541,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_drone_controller.html#a518501dddb161e03b6165b4be95eb468" title="Drone.DroneController.Drone\lController.land" alt="" coords="589,5,799,47"/>
+<area shape="rect" id="node4" href="$class_drone_1_1_drone_controller_1_1_drone_controller.html#af6e653f7ac3d62736be27cc82ee3ab8a" title="Drone.DroneController.Drone\lController.shutdownDrone" alt="" coords="847,5,1056,47"/>
+<area shape="rect" id="node5" href="$class_drone_1_1_view_1_1_basic_swing_view.html#a94c334c801d76f45d41a93ae1a01f49e" title="Drone.View.BasicSwingView.setup\lMainWindow" alt="" coords="1104,5,1343,47"/>
+<area shape="rect" id="node6" href="$class_drone_1_1_view_1_1_basic_swing_view.html#a0790b2765cac6bf77102e37767604e44" title="Drone.View.BasicSwingView.\lBasicSwingView" alt="" coords="1391,5,1593,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Drone.DroneController.Location.getXYZvelocities" name="Drone.DroneController.Location.getXYZvelocities">
+<area shape="rect" id="node2" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#ac30ee50b32525bc97ea893a1b1e9db64" title="Drone.Hardware.SensorManager.get\lXvelocity" alt="" coords="303,5,559,47"/>
+<area shape="rect" id="node4" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#aabbda2dbc136a5309cafc9b3040c0fe2" title="Drone.Hardware.SensorManager.get\lYvelocity" alt="" coords="303,71,559,112"/>
+<area shape="rect" id="node6" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#ab0af3ec601df9430e21a11205afa32a9" title="Drone.Hardware.SensorManager.get\lZvelocity" alt="" coords="303,136,559,177"/>
+<area shape="rect" id="node3" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a275ef3b4f627588bd0a192d9c45a8e3f" title="workspace.ARDroneNavData.src.\lNavData.getVx" alt="" coords="607,5,839,47"/>
+<area shape="rect" id="node5" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a60a8275d48d48979c7c6831f97c32515" title="workspace.ARDroneNavData.src.\lNavData.getLongitude" alt="" coords="607,71,839,112"/>
+<area shape="rect" id="node7" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a1e19da162884788ecca135fa6862acd4" title="workspace.ARDroneNavData.src.\lNavData.getVz" alt="" coords="607,136,839,177"/>
+</map>
