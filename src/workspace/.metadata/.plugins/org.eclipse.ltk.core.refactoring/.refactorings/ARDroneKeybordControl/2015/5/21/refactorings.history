@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;ARDrone&apos; to &apos;KeyboardController&apos;&#x0D;&#x0A;- Original project: &apos;ARDroneKeybordControl&apos;&#x0D;&#x0A;- Original element: &apos;ARDrone&apos;&#x0D;&#x0A;- Renamed element: &apos;KeyboardController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ARDrone&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ARDrone.java[ARDrone" matchStrategy="1" name="KeyboardController" qualified="false" references="true" similarDeclarations="false" stamp="1432018402879" textual="false" version="1.0"/>
-</session>

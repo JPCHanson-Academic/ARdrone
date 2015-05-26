@@ -1,5 +1,0 @@
-<map id="workspace.ARDroneNavData.src.NavData.getVx" name="workspace.ARDroneNavData.src.NavData.getVx">
-<area shape="rect" id="node2" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#ac30ee50b32525bc97ea893a1b1e9db64" title="Drone.Hardware.SensorManager.get\lXvelocity" alt="" coords="285,39,541,80"/>
-<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_location.html#a3e3939af05bd335336f2ab64d16faffc" title="Drone.DroneController.Location.get\lXYZvelocities" alt="" coords="601,5,851,47"/>
-<area shape="rect" id="node4" href="$class_drone_1_1_drone_controller_1_1_location.html#a98d3c771ad4f7635554cf31c6ca1cdab" title="Drone.DroneController.Location.update\lLocation" alt="" coords="589,71,863,112"/>
-</map>

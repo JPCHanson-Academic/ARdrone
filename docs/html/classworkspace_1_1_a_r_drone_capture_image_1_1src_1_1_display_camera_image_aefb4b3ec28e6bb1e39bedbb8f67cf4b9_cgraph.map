@@ -1,7 +1,0 @@
-<map id="workspace.ARDroneCaptureImage.src.DisplayCameraImage.main" name="workspace.ARDroneCaptureImage.src.DisplayCameraImage.main">
-<area shape="rect" id="node2" href="$classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html#ada98bede132289381d6895d2285c367f" title="workspace.ARDroneCapture\lImage.src.DisplayCameraImage.\lCaptureDroneImage" alt="" coords="338,5,569,61"/>
-<area shape="rect" id="node3" href="$classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html#a4131635745cfbdb78969b00aa7f87b6b" title="workspace.ARDroneCapture\lImage.src.DisplayCameraImage.\lCloseDrone" alt="" coords="338,85,569,141"/>
-<area shape="rect" id="node4" href="$classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html#a652d4112351613f75c3976bf094231f1" title="workspace.ARDroneCapture\lImage.src.DisplayCameraImage.open\lJavaWindow" alt="" coords="322,165,585,221"/>
-<area shape="rect" id="node5" href="$classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html#a58974c5268ea5b9552a9d70a69eb4ed4" title="workspace.ARDroneCapture\lImage.src.DisplayCameraImage.send\l_at_cmd" alt="" coords="323,245,584,301"/>
-<area shape="rect" id="node6" href="$classworkspace_1_1_a_r_drone_capture_image_1_1src_1_1_display_camera_image.html#abbd4c5447bc2c87cd929f1cd511d666a" title="workspace.ARDroneCapture\lImage.src.DisplayCameraImage.update\lJavaWindow" alt="" coords="316,325,591,381"/>
-</map>
