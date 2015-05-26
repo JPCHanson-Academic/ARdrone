@@ -1,0 +1,6 @@
+<map id="Drone.DroneController.AutoPilot.AutoPilotState" name="Drone.DroneController.AutoPilot.AutoPilotState">
+<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_x_state.html" title="Drone.DroneController.Auto\lPilot.AdjustXState" alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state.html" title="Drone.DroneController.Auto\lPilot.AdjustYState" alt="" coords="253,71,453,112"/>
+<area shape="rect" id="node4" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_z_state.html" title="Drone.DroneController.Auto\lPilot.AdjustZState" alt="" coords="253,136,453,177"/>
+<area shape="rect" id="node5" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state.html" title="Drone.DroneController.Auto\lPilot.ThinkingState" alt="" coords="253,201,453,243"/>
+</map>

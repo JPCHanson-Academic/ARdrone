@@ -1,0 +1,4 @@
+<map id="Drone.DroneController.Location.getY" name="Drone.DroneController.Location.getY">
+<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state.html#a000b841e26228d43168ba9da58ed5286" title="Drone.DroneController.Auto\lPilot.AdjustYState.adjustAction" alt="" coords="311,5,530,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state.html#a93bd4237b77019c4ac9551ccd5d25418" title="Drone.DroneController.Auto\lPilot.ThinkingState.adjustAction" alt="" coords="309,71,532,112"/>
+</map>
