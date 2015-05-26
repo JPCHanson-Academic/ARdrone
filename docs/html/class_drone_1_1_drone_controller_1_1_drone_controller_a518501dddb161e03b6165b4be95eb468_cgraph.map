@@ -1,4 +1,0 @@
-<map id="Drone.DroneController.DroneController.land" name="Drone.DroneController.DroneController.land">
-<area shape="rect" id="node2" href="$class_drone_1_1_hardware_1_1_sensor_manager.html#a79458552d1dc0b44fa31b548796b06e6" title="Drone.Hardware.SensorManager.get\lAltitude" alt="" coords="263,5,519,47"/>
-<area shape="rect" id="node3" href="$classworkspace_1_1_a_r_drone_nav_data_1_1src_1_1_nav_data.html#a79eab60c13c9c2f6728267a1013ae764" title="workspace.ARDroneNavData.src.\lNavData.getAltitude" alt="" coords="567,5,799,47"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Drone.DroneController.AutoPilot.AutoPilot.setState" name="Drone.DroneController.AutoPilot.AutoPilot.setState">
-<area shape="rect" id="node2" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_x_state.html#ac148c7c38a17b8ae7aab2ab1483e1a3c" title="Drone.DroneController.Auto\lPilot.AdjustXState.adjustAction" alt="" coords="254,5,475,47"/>
-<area shape="rect" id="node3" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_y_state.html#a000b841e26228d43168ba9da58ed5286" title="Drone.DroneController.Auto\lPilot.AdjustYState.adjustAction" alt="" coords="255,71,474,112"/>
-<area shape="rect" id="node4" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_adjust_z_state.html#a44c3058abe028db23824d490d0b102c9" title="Drone.DroneController.Auto\lPilot.AdjustZState.adjustAction" alt="" coords="254,136,475,177"/>
-<area shape="rect" id="node5" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_thinking_state.html#a93bd4237b77019c4ac9551ccd5d25418" title="Drone.DroneController.Auto\lPilot.ThinkingState.adjustAction" alt="" coords="253,201,476,243"/>
-<area shape="rect" id="node6" href="$class_drone_1_1_drone_controller_1_1_auto_pilot_1_1_auto_pilot.html#a9e5590bf12eec7180152284aa40c3338" title="Drone.DroneController.Auto\lPilot.AutoPilot.moveToTarget" alt="" coords="261,267,468,308"/>
-</map>
