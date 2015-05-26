@@ -1,4 +1,3 @@
 *.class
-doc/
-bin/
-html/
+/doc/**
+/bin/**
