@@ -1,0 +1,5 @@
+package controller1;
+public enum ControlAlgorithm
+{
+    EULER_ANGELS_CONTROL, ANGULAR_SPEED_CONTROL
+}
