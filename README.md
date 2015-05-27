@@ -3,12 +3,12 @@ This project was part of a Brunel University Code-a-thon, to control a [[Parrot 
 
 The project was split into sub problems:
 
-- [[Sensors|Sensors]]  
-- [[Control|Controls]]  
-- [[GUI|GUI]]  
-- [[QR Capture|QR Capture]]  
-- [[Travelling Salesman|Travelling Salesman]]  
-- [[Video|Video]]  
+* sensors  
+* control  
+* GUI  
+* QR Capture  
+* Travelling Salesman  
+* Video  
 
 This project has been written in Java as that was one of brunel's requirements, even though the native SDK is written in C++.
 
