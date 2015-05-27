@@ -1,0 +1,10 @@
+<map id="Drone.Helpers.IntToFloat.input" name="Drone.Helpers.IntToFloat.input">
+<area shape="rect" id="node2" href="$class_drone_1_1_drone_commands_1_1_cmnd___turn_left.html#a584d6d5eb48dfaa91d5411eaf1205d5b" title="Drone.DroneCommands.Cmnd\l_TurnLeft.execute" alt="" coords="269,5,489,47"/>
+<area shape="rect" id="node3" href="$class_drone_1_1_drone_commands_1_1_cmnd___turn_right.html#af819a07d889e2e667b36e9cf54bd0914" title="Drone.DroneCommands.Cmnd\l_TurnRight.execute" alt="" coords="269,71,489,112"/>
+<area shape="rect" id="node4" href="$class_drone_1_1_drone_commands_1_1_cmnd___move_forward.html#a7acdc81da70c5f42ff156b8bedec3a7b" title="Drone.DroneCommands.Cmnd\l_MoveForward.execute" alt="" coords="269,136,489,177"/>
+<area shape="rect" id="node5" href="$class_drone_1_1_drone_commands_1_1_cmnd___move_up.html#acd81d9358005473be57b6bb615848bd4" title="Drone.DroneCommands.Cmnd\l_MoveUp.execute" alt="" coords="269,201,489,243"/>
+<area shape="rect" id="node6" href="$class_drone_1_1_drone_commands_1_1_cmnd___move_right.html#aa7f5e79ac7f1c07cbff191f0f91d7219" title="Drone.DroneCommands.Cmnd\l_MoveRight.execute" alt="" coords="269,267,489,308"/>
+<area shape="rect" id="node7" href="$class_drone_1_1_drone_commands_1_1_cmnd___move_down.html#ae8cd059ba42c2e72ec8920c76b726884" title="Drone.DroneCommands.Cmnd\l_MoveDown.execute" alt="" coords="269,332,489,373"/>
+<area shape="rect" id="node8" href="$class_drone_1_1_drone_commands_1_1_cmnd___move_backward.html#a4768346289e58b1bf2de05356af6c78a" title="Drone.DroneCommands.Cmnd\l_MoveBackward.execute" alt="" coords="269,397,489,439"/>
+<area shape="rect" id="node9" href="$class_drone_1_1_drone_commands_1_1_cmnd___move_left.html#afdc1e84570cf60478378f67069e89182" title="Drone.DroneCommands.Cmnd\l_MoveLeft.execute" alt="" coords="269,463,489,504"/>
+</map>

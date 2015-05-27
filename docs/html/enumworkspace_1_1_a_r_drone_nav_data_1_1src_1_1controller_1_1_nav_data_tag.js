@@ -1,0 +1,27 @@
+var enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag =
+[
+    [ "NavDataTag", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a7d0420a94ec936dd1e7190aa110bfd9b", null ],
+    [ "getValue", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ad613a9c6fb9c23ac8a2ca58e6af82452", null ],
+    [ "NAVDATA_ADC_DATA_FRAME_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#aa56e262fb10166e236f3bc096b745755", null ],
+    [ "NAVDATA_ALTITUDE_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a99957ed674efd9372a278918adc0ac23", null ],
+    [ "NAVDATA_CKS_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ae293b66e01dc8215f4e3511f6745b6c8", null ],
+    [ "NAVDATA_DEMO_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ac559118f6ba8089edd6343e83e01239a", null ],
+    [ "NAVDATA_EULER_ANGLES_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a639763984a8a9ae0bb41f3f2ba87ab36", null ],
+    [ "NAVDATA_GYROS_OFFSETS_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a9d7bc1f10c5bfb590f9039d75a98fbce", null ],
+    [ "NAVDATA_PHYS_MEASURES_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a25e55cf604aef8bad8688d467d778687", null ],
+    [ "NAVDATA_PWM_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#aa678ee2bba41d3f2163fbd978c2dd972", null ],
+    [ "NAVDATA_RAW_MEASURES_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a7f8b8242e872c92f8e9f19d7e5b41b55", null ],
+    [ "NAVDATA_RC_REFERENCES_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a8d205fd586c25897fe2eb8c923af71d0", null ],
+    [ "NAVDATA_REFERENCES_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ae39c1c59ef987f5ebdaf78a1fc006dcd", null ],
+    [ "NAVDATA_TIME_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a115dab34c3a0bcf05aadabbbfa0b902b", null ],
+    [ "NAVDATA_TRACKERS_SEND_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a80660f5e59894f24a0cd004144ebb4fc", null ],
+    [ "NAVDATA_TRIMS_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a7310e168c17b1219f0fe5bf68824554d", null ],
+    [ "NAVDATA_VIDEO_STREAM_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a67b9f8b45d5237b37b11d0bd09a935bc", null ],
+    [ "NAVDATA_VISION_DETECT_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#adb464e56a37f4e364e7d1c1ee9e60fa2", null ],
+    [ "NAVDATA_VISION_OF_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#aefe3d6e51951deb92ab76d4fd2309343", null ],
+    [ "NAVDATA_VISION_PERF_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a57bfba5c9d97d6278fed3b8797a06c23", null ],
+    [ "NAVDATA_VISION_RAW_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ab79a768fe69547976532b9ef51328b66", null ],
+    [ "NAVDATA_VISION_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#a8035ac7ac20404455f0e55feb08ca33e", null ],
+    [ "NAVDATA_WATCHDOG_TAG", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#ab8546ff051fed36a2fbdf64fa84a1e1a", null ],
+    [ "value", "enumworkspace_1_1_a_r_drone_nav_data_1_1src_1_1controller_1_1_nav_data_tag.html#aba1c9c311ce6beec5dfadd83e5e0892a", null ]
+];
