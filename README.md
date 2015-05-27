@@ -1,5 +1,5 @@
 #ARdrone
-This project was part of a Brunel University Code-a-thon, to control a [[Parrot AR Drone 2.0|Parrot AR Drone 2.0]] and have it fly 
+This project was part of a Brunel University Code-a-thon, to control a Parrot AR Drone 2.0 and have it fly 
 autonomously to and from coordinates given in a text file scanning QR codes at each of the coordinate locations. These QR codes contain 
 words which when taken together make a "secret message", the drone to make the message wins.
 
